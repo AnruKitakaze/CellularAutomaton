@@ -8,7 +8,7 @@ from rule import Rule
 def main():
     x = 20
     size = x * 2 + 1
-    field = Field(0)
+    field = Field(size)
     rule = Rule(30)
 
     automaton = CellularAutomaton(rule, field)
